@@ -11,3 +11,25 @@ body{
     overflow-x: hidden;
     overflow-wrap: break-word;
 }
+
+.App{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6rem;
+}
+
+.hero-container{
+    grid-column: span 5;
+}
+.about-page{
+    grid-column: span 5;
+}
+.offer{
+    grid-column: span 5;
+}
+.container{
+    grid-column: span 5;
+}
+.footer{
+    grid-column: span 5;
+}

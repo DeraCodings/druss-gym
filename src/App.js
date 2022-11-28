@@ -32,13 +32,13 @@ const contactDetails = [
 
 function App() {
   return (
-    <>
+    <div className='App'>
       <Hero />
       <About />
       <Offer />
       <Testimonial arr={ imagesArr }/>
       <Footer contacts={ contactDetails } />
-    </>
+    </div>
   );
 }
 

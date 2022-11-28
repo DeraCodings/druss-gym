@@ -9,10 +9,12 @@
     color: #e4e406;
     letter-spacing: 0;
     word-spacing: 0;
+    margin-bottom: 1rem;
 }
 
 .offer p{
     font-size: .8rem;
+    margin-bottom: 3.5rem;
 }
 
 .additional-images{
