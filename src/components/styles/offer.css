@@ -1,0 +1,45 @@
+.offer{
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
+
+.offer h2{
+    font-size: 3rem;
+    color: #e4e406;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+.offer p{
+    font-size: .8rem;
+}
+
+.additional-images{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.additional-images .div-image:hover{
+    transition: opacity 500ms;
+}
+
+.additional-images .div-image:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .offer h2{
+        font-size: 2.5rem;
+    }    
+
+    .additional-images{
+        flex-direction: column;
+    }
+}

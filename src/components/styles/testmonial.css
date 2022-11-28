@@ -1,0 +1,28 @@
+.container{
+    background-color: #111;
+    text-align: center;
+}
+
+.container h2{
+    color: #e4e40d;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+@media (max-width: 800px) {
+    .wrapper{
+        flex-direction: column;
+    }
+
+    .container h2{
+        font-size: 2.5rem;
+    }
+}
